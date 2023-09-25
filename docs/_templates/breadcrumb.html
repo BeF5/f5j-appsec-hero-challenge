@@ -1,0 +1,1 @@
+{%- if master_doc == pagename %} F5 Community Training & Labs {%- else %} {{ project|striptags|e }} {%- endif %} {%- if parents|length > 0 %} {%- for parent in parents %} > {{ parents[loop.index0].title|striptags|e }} {%- endfor %} {%- endif %} {%- if show_source and has_source and sourcename %} Source | {%- endif %} {%- if github_url is defined %} Edit on {%- endif %}
