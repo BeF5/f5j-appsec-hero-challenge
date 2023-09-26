@@ -133,13 +133,52 @@ F5 AppSec Hero Challenge 日本語訳
 
    F5 Distributed Cloudのアプリケーションインベントリにおいて、Webに公開されているがWAFによる保護がされていないアプリケーション（ロードバランサー名）を特定してください。
 
-   コンソールから利用可能です。ログイン情報は指定のものを使ってください。
-   https://f5-xctestdrive.console.ves.volterra.io/
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/ >`_
 
 
 ヒント::
 
    ダッシュボードでは、公開されているすべてのWebアプリケーションのリストとWAFのステータスが表示されます。
+
+1. Flags - GraphQL Violations
+====
+
+
+英文::
+
+   GraphQL Violations
+   10
+
+   From the F5 Distributed Cloud Dashboard, 
+   can you identify the most significant GraphQL violation in the past 24 hours on the Arcadia Frontend messaging platform, 
+   which operates on a modern API with GraphQL and has attracted the attention of attackers?
+    - VIOL_GRAPHQL_FORMAT
+    - VIOL_GRAPHQL_MALFORMED
+    - VIOL_GRAPHQL_INTROSPECTION_QUERY
+    - VIOL_GRAPHQL_BATCH_EXCEEDED
+
+   Credentials have been emailed to you as part of registration & console is located here
+
+和訳::
+
+   GraphQL に関する違反
+   10点
+
+   GraphQLを使用したAPIサービスであるArcadia FrontendメッセージングプラットフォームをF5 Distributed Cloud Dashboardで保護しています。
+   このアプリケーションで、過去24時間に発生した最も重大なGraphQLに関する違反は、次のうちどれですか？
+    - VIOL_GRAPHQL_FORMAT
+    - VIOL_GRAPHQL_MALFORMED
+    - VIOL_GRAPHQL_INTROSPECTION_QUERY
+    - VIOL_GRAPHQL_BATCH_EXCEEDED
+  
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/ >`_
+
+
+ヒント::
+
+   ダッシュボードで当該違反によるトップの攻撃を探す
 
 
 
