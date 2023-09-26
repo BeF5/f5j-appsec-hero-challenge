@@ -1,7 +1,7 @@
-F5 XC WAAP Lab Guide for BeF5 Git Repository
+f5j-appsec-hero-challenge for BeF5 Git Repository
 ==================
 
-これは、F5 XC WAAP ラボのレポジトリです
+これは、f5j-appsec-hero-challenge ラボのレポジトリです
 
 Support
 -------

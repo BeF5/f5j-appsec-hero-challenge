@@ -1,16 +1,14 @@
 F5 DCS WAAP 構成と事前作業
 ####
 
-1. F5 DCS WAAP を設定する方法
+1. Give Away - This CTF is brought to you by
 ====
 
-F5 DCS WAAP は以下の方法で設定することが可能です
+    This CTF is brought to you by
+    5
 
-- コンソール画面からGUIで操作し、オブジェクトの作成
-- Terraform Provider を利用したオブジェクトの作成
-- API を利用したオブジェクトの作成
+この　CTFイベントを提要している会社の略称を入力してください。
 
-用途に合わせてご利用ください
 
 2. F5 DCS WAAPの構成
 ====
