@@ -5,16 +5,19 @@ F5 DCS WAAP 構成と事前作業
 ====
 
 英文::
+
    This CTF is brought to you by
    5
 
 和訳::
-    このCTFイベントを提要している会社の略称を入力してください。
+   このCTFイベントを提要している会社の略称を入力してください。
 
+
+   
 ヒント::
     赤いロゴに記載されている。トルネードのカテゴリを意味する。
 
-2. Quizzes - Understanding Inventory
+1. Quizzes - Understanding Inventory
 ====
 
 英文::
@@ -22,7 +25,7 @@ F5 DCS WAAP 構成と事前作業
     5
 
     What are APIs that lack documentation in Inventory or hidden commonly referred to as?
-     Zombie API
+    Zombie API
      Rogue API
      Shadow API
      Discovered API
@@ -34,7 +37,7 @@ F5 DCS WAAP 構成と事前作業
 
     ドキュメント化されていない、あるいは、適切な管理がされていない状態で公開されているAPIは一般的に何と呼ばれるか？選択肢から選んでください。
 
-3. Quizzes - Too many requests
+1. Quizzes - Too many requests
 ====
 
 英文::
