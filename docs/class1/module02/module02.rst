@@ -6,7 +6,7 @@ F5 DCS WAAP 構成と事前作業
 
 英文::
    This CTF is brought to you by
-    5
+   5
 
 和訳::
     このCTFイベントを提要している会社の略称を入力してください。
@@ -14,10 +14,10 @@ F5 DCS WAAP 構成と事前作業
 ヒント::
     赤いロゴに記載されている。トルネードのカテゴリを意味する。
 
-1. Quizzes - Understanding Inventory
+2. Quizzes - Understanding Inventory
 ====
 
-英文
+英文::
     Understanding Inventory
     5
 
@@ -28,7 +28,7 @@ F5 DCS WAAP 構成と事前作業
      Discovered API
     
 
-和訳
+和訳::
     APIのインベントリ（資産化）の理解
     5
 
@@ -37,13 +37,13 @@ F5 DCS WAAP 構成と事前作業
 3. Quizzes - Too many requests
 ====
 
-英文
+英文::
     Too many requests
     5
 
     Which HTTP response code is generated when a user sends an excessive number of requests and gets rate-limited?
 
-和訳
+和訳::
     Too many requests
     5
 
