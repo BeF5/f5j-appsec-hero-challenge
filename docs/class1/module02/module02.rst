@@ -1,4 +1,4 @@
-F5 DCS WAAP 構成と事前作業
+F5 AppSec Hero Challenge 日本語訳
 ####
 
 1. Give Away - This CTF is brought to you by
@@ -53,6 +53,8 @@ F5 DCS WAAP 構成と事前作業
    Too many requests
    5
 
+   Which HTTP response code is generated when a user sends an excessive number of requests and gets rate-limited?
+
 和訳::
 
    Too many requests
@@ -61,8 +63,31 @@ F5 DCS WAAP 構成と事前作業
    ユーザが過剰な数のリクエストを送信した結果、
    レート制限を受けた際に応答として受けるHTTPレスポンスコードを入力してください
 
+4. Quizzes - Fingerprint user
+====
 
+英文::
 
+   Fingerprint user
+   5
+
+   What is the preferable choice for identifying a threat actor?
+    - Client IP Address
+    - Client ASN
+    - TLS Fingerprint
+    - User Agent
+  
+和訳::
+
+   不正ユーザを識別する特徴
+   5点
+
+   脅威をもたらす不正ユーザを識別するための特徴として、
+   最も適切な選択肢を選択してください。
+    - Client IP Address
+    - Client ASN
+    - TLS Fingerprint
+    - User Agent
 
 1. F5 DCS WAAPの構成
 ====
