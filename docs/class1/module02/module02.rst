@@ -41,10 +41,10 @@ F5 AppSec Hero Challenge 日本語訳
 
    ドキュメント化されていない、あるいは、適切な管理がされていない状態で公開されているAPIは一般的に何と呼ばれるか？
    選択肢から選んでください。
-    - Zombie API
-    - Rogue API
-    - Shadow API
-    - Discovered API
+    - ゾンビ API
+    - ローグ API
+    - シャドー API
+    - ディスカバード API
 
 3. Quizzes - Too many requests
 ====
@@ -134,7 +134,7 @@ F5 AppSec Hero Challenge 日本語訳
    F5 Distributed Cloudのアプリケーションインベントリにおいて、Webに公開されているがWAFによる保護がされていないアプリケーション（ロードバランサー名）を特定してください。
 
    コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
-   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/ >`_
+   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/>`_
 
 
 ヒント::
@@ -173,7 +173,7 @@ F5 AppSec Hero Challenge 日本語訳
     - VIOL_GRAPHQL_BATCH_EXCEEDED
   
    コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
-   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/ >`_
+   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/>`_
 
 
 ヒント::
@@ -196,19 +196,62 @@ F5 AppSec Hero Challenge 日本語訳
 
 和訳::
 
-   Shadow API
+   シャドーAPI
    15点
 
    あなたは、F5 Distributed Cloud dashboardで確認できる全てのArcadia APIGW Backend APIのセキュリティ監査を実施しています。
    過去24時間以内に検出された文書化されていないAPIの総数を入力してください。
   
    コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
-   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/ >`_
+   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/>`_
 
 
 ヒント::
 
    api-gw-backend "ロードラバーサーを探し、その "API Endpoints "を調べる。
+
+
+9. Flags - High Risk API
+====
+
+
+英文::
+
+   High Risk API
+   15
+
+   While conducting the security audit of all Arcadia APIGW Backend APIs on the F5 Distributed Cloud security dashboard,you come across several high-risk APIs.
+   Can you specifically identify the high-risk undocumented API that exposes Credentials identified over past 24 hours?
+    - /api/v2/changeOrderById
+    - /api/v2/placeOrder
+    - /api/v2/moveOrder
+    - /api/v2/updatePaymentInfoById/{DYN}
+    - /api/v2/changeOrderById
+
+   Credentials have been emailed to you as part of registration & console is located here
+
+和訳::
+
+   ハイリスクなAPI
+   15点
+
+   F5 Distributed Cloudのセキュリティダッシュボードで、すべての Arcadia APIGW Backend API のセキュリティ監査を実施しているときに、
+   いくつかのハイリスクなAPI に遭遇しました。過去 24 時間に確認されたクレデンシャルを公開している文書化されていないハイリスクなAPIを選択してください。
+    - /api/v2/changeOrderById
+    - /api/v2/placeOrder
+    - /api/v2/moveOrder
+    - /api/v2/updatePaymentInfoById/{DYN}
+    - /api/v2/changeOrderById 
+  
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/>`_
+
+
+ヒント::
+
+   - "apigw-backend-lb "に移動する。
+   - "API Endpoints"タブを選択
+   - "table view"で、APIエンドポイントを調べる
 
 
 
