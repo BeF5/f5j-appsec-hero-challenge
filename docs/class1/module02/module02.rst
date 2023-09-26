@@ -1,9 +1,6 @@
 F5 AppSec Hero Challenge 日本語訳
 ####
 
-Give Away
-******
-
 1. Give Away - This CTF is brought to you by
 ====
 
@@ -21,8 +18,6 @@ Give Away
 
    赤いロゴに記載されている。トルネードのカテゴリを意味する。
 
-Quizzes
-******
 
 2. Quizzes - Understanding Inventory
 ====
@@ -110,34 +105,42 @@ Quizzes
 
 和訳::
 
-   「Base64でエンコードされた文字列は、鍵を使わずにデコードできる」。この記述は正しいですか？
+   Base64
    5点
 
-   Base64
+   「Base64でエンコードされた文字列は、鍵を使わずにデコードできる」。この記述は正しいですか？
     - Yes
     - No
 
-6. Flags - Base64
+6. Flags - Unsecure App
 ====
 
 
 英文::
 
-   Base64
-   5
+   Unsecure App
+   10
 
-   Can a base64 string be decoded without any key
-    - Yes
-    - No
+   While examining your application inventory on F5 Distributed Cloud, 
+   can you identify the application（Load balancer name）that is exposed to the web but lacks WAF protection?
+
+   Credentials have been emailed to you as part of registration & console is located here
 
 和訳::
 
-   「Base64でエンコードされた文字列は、鍵を使わずにデコードできる」。この記述は正しいですか？
-   5点
+   セキュアでないWebアプリケーション
+   10点
 
-   Base64
-    - Yes
-    - No
+   F5 Distributed Cloudのアプリケーションインベントリにおいて、Webに公開されているがWAFによる保護がされていないアプリケーション（ロードバランサー名）を特定してください。
+
+   コンソールから利用可能です。ログイン情報は指定のものを使ってください。
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+
+ヒント::
+
+   ダッシュボードでは、公開されているすべてのWebアプリケーションのリストとWAFのステータスが表示されます。
+
 
 
 
