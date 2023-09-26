@@ -4,10 +4,13 @@ F5 DCS WAAP 構成と事前作業
 1. Give Away - This CTF is brought to you by
 ====
 
+英文
     This CTF is brought to you by
     5
 
-この　CTFイベントを提要している会社の略称を入力してください。
+和訳
+
+    この　CTFイベントを提要している会社の略称を入力してください。
 
 
 2. F5 DCS WAAPの構成
