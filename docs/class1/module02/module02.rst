@@ -4,17 +4,17 @@ F5 DCS WAAP 構成と事前作業
 1. Give Away - This CTF is brought to you by
 ====
 
-英文
-    This CTF is brought to you by
+英文::
+   This CTF is brought to you by
     5
 
-和訳
+和訳::
     このCTFイベントを提要している会社の略称を入力してください。
 
-ヒント
+ヒント::
     赤いロゴに記載されている。トルネードのカテゴリを意味する。
 
-2. Quizzes - Understanding Inventory
+1. Quizzes - Understanding Inventory
 ====
 
 英文
