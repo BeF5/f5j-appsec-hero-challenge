@@ -14,8 +14,43 @@ F5 DCS WAAP 構成と事前作業
 ヒント
     赤いロゴに記載されている。トルネードのカテゴリを意味する。
 
+2. Quizzes - Understanding Inventory
+====
 
-2. F5 DCS WAAPの構成
+英文
+    Understanding Inventory
+    5
+
+    What are APIs that lack documentation in Inventory or hidden commonly referred to as?
+     Zombie API
+     Rogue API
+     Shadow API
+     Discovered API
+    
+
+和訳
+    APIのインベントリ（資産化）の理解
+    5
+
+    ドキュメント化されていない、あるいは、適切な管理がされていない状態で公開されているAPIは一般的に何と呼ばれるか？選択肢から選んでください。
+
+3. Quizzes - Too many requests
+====
+
+英文
+    Too many requests
+    5
+
+    Which HTTP response code is generated when a user sends an excessive number of requests and gets rate-limited?
+
+和訳
+    Too many requests
+    5
+
+    ユーザが過剰な数のリクエストを送信した結果、レート制限を受けた際に応答として受けるHTTPレスポンスコードを入力してください。
+
+
+1. F5 DCS WAAPの構成
 ====
 
 F5 DCS WAAPの構成について紹介します。
