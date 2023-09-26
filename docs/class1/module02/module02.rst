@@ -1,6 +1,9 @@
 F5 AppSec Hero Challenge 日本語訳
 ####
 
+Give Away
+******
+
 1. Give Away - This CTF is brought to you by
 ====
 
@@ -17,6 +20,9 @@ F5 AppSec Hero Challenge 日本語訳
 ヒント::
 
    赤いロゴに記載されている。トルネードのカテゴリを意味する。
+
+Quizzes
+******
 
 2. Quizzes - Understanding Inventory
 ====
@@ -104,7 +110,29 @@ F5 AppSec Hero Challenge 日本語訳
 
 和訳::
 
-   「Base64でエンコードされた文字列は、鍵を使わずにデコードできる」。これは正しいですか？
+   「Base64でエンコードされた文字列は、鍵を使わずにデコードできる」。この記述は正しいですか？
+   5点
+
+   Base64
+    - Yes
+    - No
+
+6. Flags - Base64
+====
+
+
+英文::
+
+   Base64
+   5
+
+   Can a base64 string be decoded without any key
+    - Yes
+    - No
+
+和訳::
+
+   「Base64でエンコードされた文字列は、鍵を使わずにデコードできる」。この記述は正しいですか？
    5点
 
    Base64
