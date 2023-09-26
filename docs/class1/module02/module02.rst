@@ -141,7 +141,7 @@ F5 AppSec Hero Challenge 日本語訳
 
    ダッシュボードでは、公開されているすべてのWebアプリケーションのリストとWAFのステータスが表示されます。
 
-1. Flags - GraphQL Violations
+7. Flags - GraphQL Violations
 ====
 
 
@@ -179,6 +179,36 @@ F5 AppSec Hero Challenge 日本語訳
 ヒント::
 
    ダッシュボードで当該違反によるトップの攻撃を探す
+
+8. Flags - Shadow API
+====
+
+
+英文::
+
+   Shadow API
+   15
+
+   You are performing a security audit for all the Arcadia APIGW Backend APIs on F5 Distributed Cloud dashboard.
+   Can you determine the total count of undocumented API detected by the system in past 24 hours
+
+   Credentials have been emailed to you as part of registration & console is located here
+
+和訳::
+
+   Shadow API
+   15点
+
+   あなたは、F5 Distributed Cloud dashboardで確認できる全てのArcadia APIGW Backend APIのセキュリティ監査を実施しています。
+   過去24時間以内に検出された文書化されていないAPIの総数を入力してください。
+  
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/ >`_
+
+
+ヒント::
+
+   api-gw-backend "ロードラバーサーを探し、その "API Endpoints "を調べる。
 
 
 
