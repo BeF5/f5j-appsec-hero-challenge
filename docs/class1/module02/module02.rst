@@ -21,24 +21,30 @@ F5 DCS WAAP 構成と事前作業
 1. Quizzes - Understanding Inventory
 ====
 
-英文::
-    Understanding Inventory
-    5
 
-    What are APIs that lack documentation in Inventory or hidden commonly referred to as?
-    Zombie API
-     Rogue API
-     Shadow API
-     Discovered API
-    
+英文::
+
+   Understanding Inventory
+   5
+
+   What are APIs that lack documentation in Inventory or hidden commonly referred to as?
+    - Zombie API
+    - Rogue API
+    - Shadow API
+    - Discovered API
 
 和訳::
-    APIのインベントリ（資産化）の理解
-    5
 
-    ドキュメント化されていない、あるいは、適切な管理がされていない状態で公開されているAPIは一般的に何と呼ばれるか？選択肢から選んでください。
+   APIのインベントリ（資産化）の理解
+   5点
 
-1. Quizzes - Too many requests
+   ドキュメント化されていない、あるいは、適切な管理がされていない状態で公開されているAPIは一般的に何と呼ばれるか？選択肢から選んでください。
+    - Zombie API
+    - Rogue API
+    - Shadow API
+    - Discovered API
+
+2. Quizzes - Too many requests
 ====
 
 英文::
