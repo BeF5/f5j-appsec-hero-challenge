@@ -89,6 +89,41 @@ F5 AppSec Hero Challenge 日本語訳
     - TLS Fingerprint
     - User Agent
 
+5. Quizzes - Base64
+====
+
+
+英文::
+
+   Base64
+   5
+
+   Can a base64 string be decoded without any key
+    - Yes
+    - No
+
+和訳::
+
+   「Base64でエンコードされた文字列は、鍵を使わずにデコードできる」。これは正しいですか？
+   5点
+
+   Base64
+    - Yes
+    - No
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. F5 DCS WAAPの構成
 ====
 
