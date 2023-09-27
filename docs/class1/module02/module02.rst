@@ -9,6 +9,11 @@ F5 AppSec Hero Challenge 日本語訳
    This CTF is brought to you by
    5
 
+
+Hints::
+
+   Its the tornado category on a red dot 
+
 和訳::
 
    このCTFイベントを提要している会社の略称を入力してください。
@@ -16,10 +21,10 @@ F5 AppSec Hero Challenge 日本語訳
 
 ヒント::
 
-   赤いロゴに記載されている。トルネードのカテゴリを意味する。
+   赤いロゴに記載されている文字。トルネードのカテゴリを意味する。
 
 
-2. Quizzes - Understanding Inventory
+1. Quizzes - Understanding Inventory
 ====
 
 
@@ -125,6 +130,11 @@ F5 AppSec Hero Challenge 日本語訳
    can you identify the application（Load balancer name）that is exposed to the web but lacks WAF protection?
 
    Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+Hints::
+
+   Dashboard has the list of all applications exposed and status of WAF
 
 和訳::
 
@@ -134,7 +144,7 @@ F5 AppSec Hero Challenge 日本語訳
    F5 Distributed Cloudのアプリケーションインベントリにおいて、Webに公開されているがWAFによる保護がされていないアプリケーション（ロードバランサー名）を特定してください。
 
    コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
-   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/>`_
+   https://f5-xctestdrive.console.ves.volterra.io/
 
 
 ヒント::
@@ -159,6 +169,11 @@ F5 AppSec Hero Challenge 日本語訳
     - VIOL_GRAPHQL_BATCH_EXCEEDED
 
    Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+Hints::
+
+   Look for top attacks by violations in dashboard 
 
 和訳::
 
@@ -173,14 +188,14 @@ F5 AppSec Hero Challenge 日本語訳
     - VIOL_GRAPHQL_BATCH_EXCEEDED
   
    コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
-   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/>`_
+   https://f5-xctestdrive.console.ves.volterra.io/
 
 
 ヒント::
 
    ダッシュボードで当該違反によるトップの攻撃を探す
 
-8. Flags - Shadow API
+1. Flags - Shadow API
 ====
 
 
@@ -193,6 +208,12 @@ F5 AppSec Hero Challenge 日本語訳
    Can you determine the total count of undocumented API detected by the system in past 24 hours
 
    Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+Hints::
+
+   Look for the "api-gw-backend" loadlabcer and study its 'API Endpoints'
+
 
 和訳::
 
@@ -203,7 +224,7 @@ F5 AppSec Hero Challenge 日本語訳
    過去24時間以内に検出された文書化されていないAPIの総数を入力してください。
   
    コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
-   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/>`_
+   https://f5-xctestdrive.console.ves.volterra.io/
 
 
 ヒント::
@@ -211,7 +232,7 @@ F5 AppSec Hero Challenge 日本語訳
    api-gw-backend "ロードラバーサーを探し、その "API Endpoints "を調べる。
 
 
-9. Flags - High Risk API
+1. Flags - High Risk API
 ====
 
 
@@ -229,6 +250,14 @@ F5 AppSec Hero Challenge 日本語訳
     - /api/v2/changeOrderById
 
    Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+
+Hints::
+
+   - Go to "apigw-backend-lb" 
+   - Go to "API Endpoints" 
+   - Study the Apiendpoints in "table view"  
 
 和訳::
 
@@ -244,7 +273,7 @@ F5 AppSec Hero Challenge 日本語訳
     - /api/v2/changeOrderById 
   
    コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
-   `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/>`_
+   https://f5-xctestdrive.console.ves.volterra.io/
 
 
 ヒント::
@@ -253,7 +282,165 @@ F5 AppSec Hero Challenge 日本語訳
    - "API Endpoints"タブを選択
    - "table view"で、APIエンドポイントを調べる
 
+1.  Flags - Automated Traffic
+====
 
+
+英文::
+
+   Automated Traffic
+   15
+
+   Due to the upcoming IPO, your organization's public website in the Asia Region has experienced a surge in popularity and, consequently, has become a frequent target of bots. 
+   Using F5 Distributed Cloud dashboard can you determine which category of pages is receiving the highest volume of bot traffic?
+    - Authentication
+    - Account Management
+    - Profile Management
+    - Unknown
+
+   Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+Hints::
+
+   Switch to "Bot Defense View" from Select Service  and Filter traffic for region "Asia" 
+
+和訳::
+
+   自動化されたトラフィック
+   15点
+
+   近々予定されているIPOのため、アジア地域にある組織の公開ウェブサイトは人気が急上昇し、その結果、ボットの頻繁な標的となっています。
+   F5 Distributed Cloudのダッシュボードを使用して、ボットのトラフィック量が最も多いページのカテゴリを特定してください。
+    - Authentication
+    - Account Management
+    - Profile Management
+    - Unknown
+  
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+
+ヒント::
+
+   "Select Service"から"Bot Defense View"に切り替え、"Asia"リージョンでフィルタリングする。
+
+1.   Flags - Bot Detection
+====
+
+
+英文::
+
+   Bot Detection
+   15
+
+   During the assessment of the Arcadia frontend application traffic, you observe numerous blocked automation attempts by the system.
+   Could you identify the primary reason code for the requests being blocked over the last 7 days?
+    - Token Missing
+    - Token Expired
+    - Interstitial Served
+    - Javascript Failure
+
+   Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+和訳::
+
+   Botの検出
+   15点
+
+   "Arcadia frontend"アプリケーションの評価中に、システムによってブロックされた自動化されたリクエストが多数あることを確認しました。
+   過去7日間にブロックされたリクエストのうち、最も主要なものを選択してください。
+    - Authentication
+    - Account Management
+    - Profile Management
+    - Unknown
+  
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+1.  Flags - Malicious User
+====
+
+
+英文::
+
+   Malicious User
+   15
+
+   Amidst the ongoing targeting of your public-facing website Arcadia Frontend by different threat actors, 
+   there has been one particular threat actor making multiple forbidden access attempts and triggering several WAF events over the past 24 hours.
+   Using F5 Distributed Cloud can you identify the TLS fingerprint associated with this specific threat actor?
+
+   Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+Hints::
+
+   - Goto to "arcadia-front-end-lb"  from the Security Dashboard 
+   - Click on Malicious User 
+   - Study the High risk user 
+
+和訳::
+
+   悪意のあるユーザ
+   15点
+
+   さまざまな攻撃者によって貴社の公開Webサイト"Arcadia Frontend"が標的とされ続けている中、
+   ある特定の攻撃者が過去24時間の間に何度も禁止されたアクセスを試み、複数のWAFイベントをトリガーしています。
+   F5 Distributed Cloudを使用して、この特定の攻撃者に関連するTLSフィンガープリントをしてください。
+  
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+
+ヒント::
+
+   - "Securiry Dashboard"から "arcadia-front-end-lb "に移動する。
+   - "Malicious User"をクリック
+   - ”High risk”と判断されているユーザを調べる
+
+1.  Flags - Unrestricted Resource Consumption
+====
+
+
+英文::
+
+   Unrestricted Resource Consumption
+   15
+
+   In accordance with the OWASP API Top 10 compliance, your organization has implemented resource consumption restrictions. 
+   Using F5 Distributed Cloud console, can you identify the request path where users, whether malicious or otherwise, are encountering these restrictions over the past 24 hours?
+   
+   Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+Hints::
+
+   - Under REquests Tab Look for Resp code 429   in last 24 hours 
+   Alternatively 
+   - Under Security Analytics looks for API events 
+   - Look for Resp Code  429 
+
+
+和訳::
+
+   制限されていないリソース消費
+   15点
+
+   OWASP API Top 10 コンプライアンスに従って、あなたの組織はリソースの消費制限を実装しました。
+   F5 Distributed Cloudコンソールを使用して、悪意があるかどうかにかかわらず、過去24時間にユーザーがこれらの制限に遭遇しているリクエストパスを特定してください。
+  
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+
+ヒント::
+
+   - Requestタブで、過去24時間以内のレスポンスコード 429のログを探す
+   または、
+   - Security AnalyticsのAPI eventsを探す
+   - レスポンスコード 429のログを探す
 
 
 
