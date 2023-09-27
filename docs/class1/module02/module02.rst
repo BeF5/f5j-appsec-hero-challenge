@@ -34,6 +34,7 @@ Hints::
    5
 
    What are APIs that lack documentation in Inventory or hidden commonly referred to as?
+
     - Zombie API
     - Rogue API
     - Shadow API
@@ -46,6 +47,7 @@ Hints::
 
    ドキュメント化されていない、あるいは、適切な管理がされていない状態で公開されているAPIは一般的に何と呼ばれるか？
    選択肢から選んでください。
+
     - ゾンビ API
     - ローグ API
     - シャドー API
@@ -78,6 +80,7 @@ Hints::
    5
 
    What is the preferable choice for identifying a threat actor?
+
     - Client IP Address
     - Client ASN
     - TLS Fingerprint
@@ -90,6 +93,7 @@ Hints::
 
    脅威をもたらす不正ユーザを識別するための特徴として、
    最も適切な選択肢を選択してください。
+
     - Client IP Address
     - Client ASN
     - TLS Fingerprint
@@ -105,6 +109,7 @@ Hints::
    5
 
    Can a base64 string be decoded without any key
+
     - Yes
     - No
 
@@ -114,6 +119,7 @@ Hints::
    5点
 
    「Base64でエンコードされた文字列は、鍵を使わずにデコードできる」。この記述は正しいですか？
+
     - Yes
     - No
 
@@ -163,6 +169,7 @@ Hints::
    From the F5 Distributed Cloud Dashboard, 
    can you identify the most significant GraphQL violation in the past 24 hours on the Arcadia Frontend messaging platform, 
    which operates on a modern API with GraphQL and has attracted the attention of attackers?
+
     - VIOL_GRAPHQL_FORMAT
     - VIOL_GRAPHQL_MALFORMED
     - VIOL_GRAPHQL_INTROSPECTION_QUERY
@@ -182,6 +189,7 @@ Hints::
 
    GraphQLを使用したAPIサービスであるArcadia FrontendメッセージングプラットフォームをF5 Distributed Cloud Dashboardで保護しています。
    このアプリケーションで、過去24時間に発生した最も重大なGraphQLに関する違反は、次のうちどれですか？
+
     - VIOL_GRAPHQL_FORMAT
     - VIOL_GRAPHQL_MALFORMED
     - VIOL_GRAPHQL_INTROSPECTION_QUERY
@@ -243,6 +251,7 @@ Hints::
 
    While conducting the security audit of all Arcadia APIGW Backend APIs on the F5 Distributed Cloud security dashboard,you come across several high-risk APIs.
    Can you specifically identify the high-risk undocumented API that exposes Credentials identified over past 24 hours?
+
     - /api/v2/changeOrderById
     - /api/v2/placeOrder
     - /api/v2/moveOrder
@@ -266,6 +275,7 @@ Hints::
 
    F5 Distributed Cloudのセキュリティダッシュボードで、すべての Arcadia APIGW Backend API のセキュリティ監査を実施しているときに、
    いくつかのハイリスクなAPI に遭遇しました。過去 24 時間に確認されたクレデンシャルを公開している文書化されていないハイリスクなAPIを選択してください。
+
     - /api/v2/changeOrderById
     - /api/v2/placeOrder
     - /api/v2/moveOrder
@@ -293,6 +303,7 @@ Hints::
 
    Due to the upcoming IPO, your organization's public website in the Asia Region has experienced a surge in popularity and, consequently, has become a frequent target of bots. 
    Using F5 Distributed Cloud dashboard can you determine which category of pages is receiving the highest volume of bot traffic?
+
     - Authentication
     - Account Management
     - Profile Management
@@ -312,6 +323,7 @@ Hints::
 
    近々予定されているIPOのため、アジア地域にある組織の公開ウェブサイトは人気が急上昇し、その結果、ボットの頻繁な標的となっています。
    F5 Distributed Cloudのダッシュボードを使用して、ボットのトラフィック量が最も多いページのカテゴリを特定してください。
+
     - Authentication
     - Account Management
     - Profile Management
@@ -336,6 +348,7 @@ Hints::
 
    During the assessment of the Arcadia frontend application traffic, you observe numerous blocked automation attempts by the system.
    Could you identify the primary reason code for the requests being blocked over the last 7 days?
+
     - Token Missing
     - Token Expired
     - Interstitial Served
@@ -351,6 +364,7 @@ Hints::
 
    "Arcadia frontend"アプリケーションの評価中に、システムによってブロックされた自動化されたリクエストが多数あることを確認しました。
    過去7日間にブロックされたリクエストのうち、最も主要なものを選択してください。
+
     - Authentication
     - Account Management
     - Profile Management
@@ -441,6 +455,92 @@ Hints::
    または、
    - Security AnalyticsのAPI eventsを探す
    - レスポンスコード 429のログを探す
+
+
+14.  Flags - Top Attacker
+====
+
+
+英文::
+
+   Top Attacker
+   15
+
+   Can you find TLS fingerprint of top attacker across all your applications over past 24 hours using F5 Distributed Cloud?
+
+    - 8d9f7747675e24454cd9b7ed35c58707
+    - d0ee3237a14bbd89ca4d2b5356ab20ba
+    - 398430069e0a8ecfbc8db0778d658d77
+    - f436b9416f37d134cadd04886327d3e8
+  
+   Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+Hints::
+
+   - Under security dashboard look for top attacker source 
+   - Switch from Source IP to TLS fingerprint
+
+
+和訳::
+
+   トップアタッカー
+   15点
+
+   F5 Distributed Cloudを使用して、過去24時間のすべてのアプリケーションでトップ攻撃者（最も多く攻撃を行っている攻撃者）のTLSフィンガープリントはどれですか？
+
+    - 8d9f7747675e24454cd9b7ed35c58707
+    - d0ee3237a14bbd89ca4d2b5356ab20ba
+    - 398430069e0a8ecfbc8db0778d658d77
+    - f436b9416f37d134cadd04886327d3e8
+    
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+
+ヒント::
+
+   - "Securiry Dashboard"で "Top Attacker"のSourceを探す
+   - Source IPからTLS fingerprintに切り替える
+
+
+15.  Flags - Threat Campaigns
+====
+
+
+英文::
+
+   Threat Campaigns
+   15
+
+   During the last 24 hours, your organization's internet-facing applications have been subjected to scanning and attacks.
+   Using F5 Distributed Cloud can you identify the attack campaign specifically targeting your Apache server
+   and determine the CVE ”Common Vulnerabilities and Exposures” being exploited in this attack?
+  
+   Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+Hints::
+
+  Check "Threat Campaigns Tab"  Under "Threat Insights" 
+
+
+和訳::
+
+   スレットキャンペーン
+   15点
+
+   過去24時間の間に、あなたの組織のインターネットに面したアプリケーションは、スキャンと攻撃を受けています。
+   F5 Distributed Cloudを使用して、Apacheサーバを標的とした攻撃キャンペーンを特定し、この攻撃で悪用されているCVE IDを入力してください。
+    
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+
+ヒント::
+
+   "Threat Insights"の下にある "Threat Campaigns Tab" を確認する
+
 
 
 
