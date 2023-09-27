@@ -24,7 +24,7 @@ Hints::
    赤いロゴに記載されている文字。トルネードのカテゴリを意味する。
 
 
-1. Quizzes - Understanding Inventory
+2. Quizzes - Understanding Inventory
 ====
 
 
@@ -195,7 +195,7 @@ Hints::
 
    ダッシュボードで当該違反によるトップの攻撃を探す
 
-1. Flags - Shadow API
+8. Flags - Shadow API
 ====
 
 
@@ -232,7 +232,7 @@ Hints::
    api-gw-backend "ロードラバーサーを探し、その "API Endpoints "を調べる。
 
 
-1. Flags - High Risk API
+9. Flags - High Risk API
 ====
 
 
@@ -282,7 +282,7 @@ Hints::
    - "API Endpoints"タブを選択
    - "table view"で、APIエンドポイントを調べる
 
-1.  Flags - Automated Traffic
+10.  Flags - Automated Traffic
 ====
 
 
@@ -325,7 +325,7 @@ Hints::
 
    "Select Service"から"Bot Defense View"に切り替え、"Asia"リージョンでフィルタリングする。
 
-1.   Flags - Bot Detection
+11.   Flags - Bot Detection
 ====
 
 
@@ -359,7 +359,7 @@ Hints::
    コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
    https://f5-xctestdrive.console.ves.volterra.io/
 
-1.  Flags - Malicious User
+12.  Flags - Malicious User
 ====
 
 
@@ -400,7 +400,7 @@ Hints::
    - "Malicious User"をクリック
    - ”High risk”と判断されているユーザを調べる
 
-1.  Flags - Unrestricted Resource Consumption
+13.  Flags - Unrestricted Resource Consumption
 ====
 
 
