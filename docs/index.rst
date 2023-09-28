@@ -8,12 +8,11 @@ F5 AppSec Hero Challengガイド - Index
 | 本ガイドは、CTFイベントであるF5 AppSec Hero Challengeの日本語版のためのガイドです。
 
 F5 AppSec Hero Challengeでは、２つのシステムを使って作業を進めます。
-- スコアサーバ
-  - 問題（英語）の表示と回答入力を行うシステムです
-- F5 Distributed Cloud テナント
-  - このシステムを操作し、問題の回答を見つけます
 
-スコアサーバ
+| 1. スコアサーバ: 問題（英語）の表示と回答入力を行うシステムです
+| 2. F5 Distributed Cloud テナント: このシステムを操作し、問題の回答を見つけます
+
+1. スコアサーバ
 ========
 問題文（英語）の表示と回答入力を行うスコアサーバは、以下のとおりです。
 
@@ -30,7 +29,7 @@ F5 AppSec Hero Challengeでは、２つのシステムを使って作業を進�
       | `https://f5j-appsec-hero-challenge.readthedocs.io/ja/latest/class1/module02/module02.html <https://f5j-appsec-hero-challenge.readthedocs.io/ja/latest/class1/module02/module02.html>`__
   
 
-F5 Distributed Cloud テナント
+2. F5 Distributed Cloud テナント
 ========
 問題を解くために、利用するF5 Distributed Cloudテナントの情報は以下のとおりです。
 
