@@ -37,3 +37,11 @@ F5 Distributed Cloud テナント
 - ログイン情報
     - 別途、案内のあるEmail/Passwordでログインしてください。（スコアサーバのログイン情報とは別の情報となります。）
 
+..
+.. toctree::
+   :maxdepth: 3
+   :caption: Lab Contents:
+   :glob:
+
+   class*/module*/module*
+..
