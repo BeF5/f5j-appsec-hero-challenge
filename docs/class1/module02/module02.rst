@@ -541,81 +541,176 @@ Hints::
 
    "Threat Insights"の下にある "Threat Campaigns Tab" を確認する
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-1. F5 DCS WAAPの構成
+16.  Flags - SSRF
 ====
 
-F5 DCS WAAPの構成について紹介します。
 
-   .. image:: ./media/dcs-waap-lab-diagram.JPG
-       :width: 400
+英文::
 
-こちらに示している各種機能をF5 DCSのコンソール画面から設定します
+   SSRF
+   15
 
-| F5 DCSには ``Tenant`` と ``Namespace`` があり、その配下で各種設定オブジェクトを管理します。
-| 契約者毎に ``Tenant`` が割り当てられます。あるTenantに所属するユーザは、そのTenanat内に ``Namespace`` を作成することが可能です
-| また、ユーザが定義する Namespace の他に、いくつかの Namespace が存在します
-| 詳細は、 `Core Concepts <https://docs.cloud.f5.com/docs/ves-concepts/core-concepts>`__ を参照してください。
+   The F5 Distributed Cloud security dashboard has alerted a SSRF attempt on your Arcadia apigw backend application over the past 24 hours.
+   Can you identify the URL the attacker was trying to access?
+  
+   Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
 
-   .. image:: ./media/dcs-waap-tenant-ns.JPG
-       :width: 600
+Hints::
 
-その他WAAPの設定に関連するオブジェクトを示します。
-こちらの例ではユーザが定義した2つの Namespace にそれぞれHTTP Load Balancerを構成しています。
-HTTP Load Balancerはその提供機能に応じた設定パラメータを持ちます。各機能は、HTTP Load Balancerの設定項目としてパラメータを指定します。
-一部の設定については、Namespace 内で別の 設定オブジェクト として定義され、それらを参照する構成をとります。
-HTTP Load Balancerの外部で定義された 設定オブジェクト は同一Namespace内の別のHTTP Load Balancerから参照可能です。
+  Look for SSRF in Dashboard and find the corresponding event in "Security Analytics" tab by clicking on it. 
 
-また、一部の設定オブジェクトについては、Shared Object として作成することが可能です。このオブジェクトは、複数のName Spaceから参照することができます。
 
-   .. image:: ./media/dcs-waap-objects.JPG
-       :width: 600
+和訳::
 
-3. Namespaceの作成
+   SSRF
+   15点
+
+   F5 Distributed Cloudのセキュリティダッシュボードで、過去24時間以内に"Arcadia apigw backend"アプリケーションに対するSSRF攻撃の試行が警告されました。
+   攻撃者がアクセスしようとしたURLを特定してください。
+    
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+
+ヒント::
+
+   ダッシュボードでSSRFを探し、"Security Analytics "タブで該当するイベントをクリックして見つける。
+
+17.  Flags - Client Side Defense
 ====
 
-本ラボで利用する ``Namespace`` を別に作成する場合、新規に作成頂くことが可能です。
-すでに利用できる ``Namespace`` があり、新規に作成が不要である場合、こちらの手順をスキップしてください
 
-F5 DCS のコンソールを開き、 ``Administration`` を開きます
+英文::
 
-   .. image:: ./media/dcs-console-administration.JPG
-       :width: 400
+   Client Side Defense
+   20
 
-Personal Management の ``My Namespaces`` を開き、上部に表示される ``Add namespaces`` をクリックしてください
+   The developers of Arcadia Frontend application incorporated several open-source JS packages.
+   The F5 Distributed Cloud console is now alerting you about potential malicious behavior exhibited by a script on users' browsers. 
+   Can you identify the name of the script that has interacted with five or more high-risk sites in the past 30 days?
+  
+   Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
 
-   .. image:: ./media/dcs-waap-add-namespace.JPG
-       :width: 400
+Hints::
 
-表示される項目を入力し、 ``Save changes`` をクリックしてください
+  - From security dash board click on Arcadia frontned 
+  - Goto client side defense widget 
+  - Click Goto dashboard 
+  - Click on script list and check last 30 days window 
 
-   .. image:: ./media/dcs-waap-add-namespace2.JPG
-       :width: 400
 
-4. Tenant ID等の確認
+和訳::
+
+   Client Side Defense
+   20点
+
+   "Arcadia Frontend"アプリケーションの開発者は、クライアント側で動作するいくつかのオープンソースのJava Scriptパッケージを組み込みました。
+   F5 Distributed Cloudコンソールは、ユーザーのブラウザ上でスクリプトが示す潜在的な悪意のある動作について警告しています。
+   過去30日間に危険度5以上と判定されているサイトと通信したスクリプトの名前はなんですか？
+    
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+
+ヒント::
+
+   ダッシュボードでSSRFを探し、"Security Analytics "タブで該当するイベントをクリックして見つける。
+   - セキュリティ・ダッシュボードから Arcadia frontned をクリックする。
+   - Client Side Defenseウィジェットに移動 
+   - ダッシュボードに移動 
+   - Script listをクリックし、過去30日間の期間をチェックする。
+
+18.  Flags - Client Side Defense
 ====
 
-ご利用されるアカウントのテナントID等の情報は以下の手順でご確認いただけます。
-それぞれの情報はTerraform/APIなどで利用いたします。利用の際にはこちらの項目をご確認ください。
 
-F5 DCS のコンソールを開き、 ``Administration`` を開きます
+英文::
 
-   .. image:: ./media/dcs-console-administration.JPG
-       :width: 400
+   Security Posture: Authentication
+   25
 
-画面左側 ``Tenant Settings`` の ``Tenant Overview`` を開き、画面に表示される内容を確認してください。
+   While conducting the audit on Arcadia APIGW backend on F5 Distributed Cloud console, 
+   you discover a high-risk API /api/v2/moveOrder. 
+   Can you investigate the authentication-related vulnerabilities associated with this API?
+  
+    - API key not rotated
+    - Weak JWT
+    - No Authentication
+    - Alert is a false positive
 
-   .. image:: ./media/dcs-administration-tenant-information.jpg
-       :width: 400
+   Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+Hints::
+
+  1. Under "Dashboard" look for the API Gateway backend. 
+  2. Inspect the API Endpoint for the stated API and look under "Security Posture 
+
+
+和訳::
+
+   セキュリティポスチャ: 認証
+   25点
+
+   F5 Distributed Cloudコンソールで"Arcadia APIGW backend"の監査を行っているときに、
+   リスクの高いAPI /api/v2/moveOrderを発見しました。このAPIに関連する認証関連の脆弱性を次の中から選択してください。
+
+    - API key not rotated
+    - Weak JWT
+    - No Authentication
+    - Alert is a false positive
+
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+
+ヒント::
+
+  1. Dashboardで"API Gateway backend" を探す
+  2. 指定されたAPIのAPIエンドポイントを調べて、"Security Posture"の下を確認する
+
+19.  Flags - API Drift
+====
+
+
+英文::
+
+   API Drift
+   25
+
+   According to your organizational policy and the Open API Specification/ Swagger, OAuth tokens are mandated for API authorization for Arcadia frontend APIs . 
+   However, the developers recently made updates to the "Arcadia Frontend" application that deviated from this policy. 
+   F5 Distributed Cloud security analytics dashboard has reported these API deviations within the past 24 hours. 
+   Can you locate the value of the Violation related to these incidents?
+
+   Credentials have been emailed to you as part of registration & console is located here
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+Hints::
+
+  Under security Anlaytics , Look for "API" events  with Mode as "Report" 
+  Study any event and look for violations 
+  The answer is base 64 encoded  
+
+
+和訳::
+
+   APIドリフト
+   25点
+
+   組織のポリシーとOpen API Specification/Swaggerによると、"Arcadia frontend"のAPI認証にはOAuthトークンが必須です。
+   しかし、開発者は最近、"Arcadia Frontend"アプリケーションにこのポリシーから逸脱したアップデートを行いました。
+   F5 Distributed Cloudのセキュリティ分析ダッシュボードは、過去24時間以内にこれらのAPIの逸脱を報告しています。
+   これらのインシデントに関連する違反の値を入力してください。
+
+   コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
+   https://f5-xctestdrive.console.ves.volterra.io/
+
+
+ヒント::
+
+  Security Anlayticsの下で、Modeが"Report"の”API"イベントを探す。
+  違反となっているイベントを探す。
+  答えは、Base64でエンコードされている
