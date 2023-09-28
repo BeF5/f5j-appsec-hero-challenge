@@ -1,4 +1,4 @@
-F5 Labs - Index
+F5 AppSec Hero Challengガイド - Index
 ####
 
 ようこそ！
@@ -40,7 +40,7 @@ F5 Distributed Cloud テナント
 ..
 .. toctree::
    :maxdepth: 3
-   :caption: Lab Contents:
+   :caption: F5 AppSec Hero Challengガイド:
    :glob:
 
    class*/module*/module*
