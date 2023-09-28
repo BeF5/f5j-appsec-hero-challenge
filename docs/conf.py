@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'xxxx セットアップガイド'
+project = 'F5 AppSec Hero Challenge ガイド'
 copyright = '2023, F5ネットワークスジャパン合同会社'
 author = 'F5ネットワークスジャパン合同会社'
 

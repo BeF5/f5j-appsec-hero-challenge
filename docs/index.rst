@@ -4,38 +4,38 @@ F5 Labs - Index
 ようこそ！
 ========
 
-| ようこそ！F5 DCS WAAP ラボガイドへ！
-| 実際にF5 DCS WAAPを触って試していただくための手順をまとめています。
-| アクセス可能な方は手順に従って操作をしてください。
+| ようこそ！F5 AppSec Hero Challengeガイドへ！
+| 本ガイドは、CTFイベントであるF5 AppSec Hero Challengeの日本語版のためのガイドです。
 
 
-事前必要事項
+スコアサーバ
 ========
-本手順の作業をいただく場合、以下の内容についてご準備いただけますとスムーズに操作を進めて頂くことが可能です。
+問題文（英語）の表示と回答入力を行うスコアサーバは、以下のとおりです。
 
-- クライアント
-    - F5 DCSでデプロイしたアプリケーションに対し、インターネットを経由してアクセスいただきます
-    - インターネットへの疎通が可能な端末にて操作をいただきます
+- URL
+    - |  以下のURLにアクセスしてください。
+    - | `https://f5appsec.ctfd.io/ <https://f5appsec.ctfd.io/>`__
 
-- FQDNへのアクセス
-    - クライアントからF5 DCSへのアクセスはFQDNで実施いただきます
-    - 対象のFQDNに対し、以下のいずれかの操作を行い適切な名前解決ができるようにしてください
-        - DNSサーバの設定を変更し、対象FQDNに紐づくIPアドレスを登録する
-        - クライアントのhostsファイルに対象FQDNに紐づくIPアドレスを記述する
+- ユーザ情報
+    - 別途、案内のあった手順で、ユーザ登録を行なってください。"User Name"は、他の参加者に見られても問題ない名前を入力してください。
 
-- サンプルアプリケーション
-    - HTTPリクエストに対し応答可能なもので動作を確認いただくことが可能です
-    - ただし、一部リクエストは攻撃者を模したリクエストとなりますので、動作確認用のアプリケーションをご用意されることをおすすめいたします
-    - オリジンサイトに配置するアプリケーションはF5 DCSを送信元としたHTTPリクエストに応答するよう設定してください
+- 問題と回答
+    - Topページから"Challenges"メニューを選択すると、問題文と回答を入力するページに遷移します。
+    - | 問題文の日本語訳は、以下に記載してあります。（ヒントも含まれている形で翻訳しています。）
+      | `https://f5appsec.ctfd.io/ <https://f5j-appsec-hero-challenge.readthedocs.io/ja/latest/class1/module02/module02.html>`__
+  
 
-   .. image:: ./media/dcs-waap-lab-diagram.JPG
-       :width: 600
+F5 Distributed Cloud テナント
+========
+問題を解くために、利用するF5 Distributed Cloudテナントの情報は以下のとおりです。
 
-.. NOTE::
-    - | F5 DCSが割り当てている各リージョンのSNAT IPの以下のページを参照してください
-      | `Firewall or Proxy Reference for Network Cloud <https://docs.cloud.f5.com/docs/reference/network-cloud-ref>`__
-    - F5 DCS WAAPを設定するとすべてのリージョンで通信を待ち受ける設定となります。特定リージョンに限定したデプロイはできません
 
+- URL
+    - |  以下のURLにアクセスしてください。
+    - | `https://f5-xctestdrive.console.ves.volterra.io/ <https://f5-xctestdrive.console.ves.volterra.io/>`__
+
+- ログイン情報
+    - 別途、案内のあるEmail/Passwordでログインしてください。（スコアサーバのログイン情報とは別の情報となります。）
 
 .. toctree::
    :maxdepth: 3
