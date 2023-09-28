@@ -7,6 +7,11 @@ F5 AppSec Hero Challengガイド - Index
 | ようこそ！F5 AppSec Hero Challengeガイドへ！
 | 本ガイドは、CTFイベントであるF5 AppSec Hero Challengeの日本語版のためのガイドです。
 
+F5 AppSec Hero Challengeでは、２つのシステムを使って作業を進めます。
+- スコアサーバ
+  - 問題（英語）の表示と回答入力を行うシステムです
+- F5 Distributed Cloud テナント
+  - このシステムを操作し、問題の回答を見つけます
 
 スコアサーバ
 ========
