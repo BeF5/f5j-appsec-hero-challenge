@@ -22,7 +22,7 @@ F5 Labs - Index
 - 問題と回答
     - Topページから"Challenges"メニューを選択すると、問題文と回答を入力するページに遷移します。
     - | 問題文の日本語訳は、以下に記載してあります。（ヒントも含まれている形で翻訳しています。）
-      | `https://f5appsec.ctfd.io/ <https://f5j-appsec-hero-challenge.readthedocs.io/ja/latest/class1/module02/module02.html>`__
+      | `https://f5j-appsec-hero-challenge.readthedocs.io/ja/latest/class1/module02/module02.html <https://f5j-appsec-hero-challenge.readthedocs.io/ja/latest/class1/module02/module02.html>`__
   
 
 F5 Distributed Cloud テナント
@@ -37,9 +37,11 @@ F5 Distributed Cloud テナント
 - ログイン情報
     - 別途、案内のあるEmail/Passwordでログインしてください。（スコアサーバのログイン情報とは別の情報となります。）
 
+..
 .. toctree::
    :maxdepth: 3
    :caption: Lab Contents:
    :glob:
 
    class*/module*/module*
+..
