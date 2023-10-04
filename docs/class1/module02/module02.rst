@@ -365,15 +365,15 @@ Hints::
    "Arcadia frontend"アプリケーションの評価中に、システムによってブロックされた自動化されたリクエストが多数あることを確認しました。
    過去7日間にブロックされたリクエストのうち、最も主要なものを選択してください。
 
-    - Authentication
-    - Account Management
-    - Profile Management
-    - Unknown
-  
+    - Token Missing
+    - Token Expired
+    - Interstitial Served
+    - Javascript Failure
+
    コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
    https://f5-xctestdrive.console.ves.volterra.io/
 
-12.  Flags - Malicious User
+1.   Flags - Malicious User
 ====
 
 
@@ -414,7 +414,7 @@ Hints::
    - "Malicious User"をクリック
    - ”High risk”と判断されているユーザを調べる
 
-13.  Flags - Unrestricted Resource Consumption
+1.   Flags - Unrestricted Resource Consumption
 ====
 
 
@@ -457,7 +457,7 @@ Hints::
    - レスポンスコード 429のログを探す
 
 
-14.  Flags - Top Attacker
+1.   Flags - Top Attacker
 ====
 
 
@@ -504,7 +504,7 @@ Hints::
    - Source IPからTLS fingerprintに切り替える
 
 
-15.  Flags - Threat Campaigns
+1.   Flags - Threat Campaigns
 ====
 
 
@@ -541,7 +541,7 @@ Hints::
 
    "Threat Insights"の下にある "Threat Campaigns Tab" を確認する
 
-16.  Flags - SSRF
+1.   Flags - SSRF
 ====
 
 
@@ -577,7 +577,7 @@ Hints::
 
    ダッシュボードでSSRFを探し、"Security Analytics "タブで該当するイベントをクリックして見つける。
 
-17.  Flags - Client Side Defense
+1.   Flags - Client Side Defense
 ====
 
 
@@ -622,7 +622,7 @@ Hints::
    - ダッシュボードに移動 
    - Script listをクリックし、過去30日間の期間をチェックする。
 
-18.  Flags - Client Side Defense
+1.   Flags - Client Side Defense
 ====
 
 
