@@ -373,7 +373,7 @@ Hints::
    コンソールは、以下より利用可能です。ログイン情報は指定のものを使ってください。
    https://f5-xctestdrive.console.ves.volterra.io/
 
-1.   Flags - Malicious User
+12.   Flags - Malicious User
 ====
 
 
@@ -414,7 +414,7 @@ Hints::
    - "Malicious User"をクリック
    - ”High risk”と判断されているユーザを調べる
 
-1.   Flags - Unrestricted Resource Consumption
+13.   Flags - Unrestricted Resource Consumption
 ====
 
 
@@ -457,7 +457,7 @@ Hints::
    - レスポンスコード 429のログを探す
 
 
-1.   Flags - Top Attacker
+14.   Flags - Top Attacker
 ====
 
 
@@ -504,7 +504,7 @@ Hints::
    - Source IPからTLS fingerprintに切り替える
 
 
-1.   Flags - Threat Campaigns
+15.   Flags - Threat Campaigns
 ====
 
 
@@ -541,7 +541,7 @@ Hints::
 
    "Threat Insights"の下にある "Threat Campaigns Tab" を確認する
 
-1.   Flags - SSRF
+16.   Flags - SSRF
 ====
 
 
@@ -577,7 +577,7 @@ Hints::
 
    ダッシュボードでSSRFを探し、"Security Analytics "タブで該当するイベントをクリックして見つける。
 
-1.   Flags - Client Side Defense
+17.   Flags - Client Side Defense
 ====
 
 
@@ -622,7 +622,7 @@ Hints::
    - ダッシュボードに移動 
    - Script listをクリックし、過去30日間の期間をチェックする。
 
-1.   Flags - Client Side Defense
+18.   Flags - Security Posture: Authentication
 ====
 
 
