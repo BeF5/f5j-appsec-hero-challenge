@@ -616,7 +616,6 @@ Hints::
 
 ヒント::
 
-   ダッシュボードでSSRFを探し、"Security Analytics "タブで該当するイベントをクリックして見つける。
    - セキュリティ・ダッシュボードから Arcadia frontned をクリックする。
    - Client Side Defenseウィジェットに移動 
    - ダッシュボードに移動 
